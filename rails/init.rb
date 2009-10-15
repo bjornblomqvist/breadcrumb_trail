@@ -1,2 +1,2 @@
 ActionController::Base.send :include, BreadcrumbTrail
-ActionController::Base.helper BreadcrumbTrailHelper
+ActionView::Base.send :include, BreadcrumbTrailHelper
