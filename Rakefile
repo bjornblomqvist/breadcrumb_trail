@@ -12,7 +12,7 @@ begin
     gem.authors = ["Able Technology Limited","Darwin"]
     gem.files = FileList['lib/**/*.rb', 'ext/**/*','README.rdoc','MIT-LICENSE','README','CHANGES','NOTES','VERSION','test/**/*','rails/**/*','public/**/*'].to_a  
   end
-  Jeweler::GemcutterTasks.new
+#  Jeweler::GemcutterTasks.new
 rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
 end
